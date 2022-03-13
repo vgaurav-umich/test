@@ -1,0 +1,5 @@
+tasks:
+  - source: 01-task.py
+    product:
+      nb: notebooks/01-task.ipynb
+      data: data/01-data.parquet

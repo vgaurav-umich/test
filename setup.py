@@ -2,10 +2,10 @@ from setuptools import find_packages, setup
 
 setup(
     name="test",
-    packages=find_packages(exclude=('test*','testing*')),
+    packages=find_packages(),
     install_requires=[
     ],
-    setup_requires=['jupyterlab', 'ploomber'],
+    setup_requires=['ploomber', 'jupyterlab'],
     tests_require=[],
 
 )
