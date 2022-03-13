@@ -29,6 +29,7 @@ nltk = "*"
 pybullet = "*"
 ptan = "*"
 mistune = "==0.8.4"
+test = {editable = true, path = "."}
 
 [dev-packages]
 test = {editable = true, path = "."}
