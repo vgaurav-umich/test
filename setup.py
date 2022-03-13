@@ -5,7 +5,7 @@ setup(
     packages=find_packages(),
     install_requires=[
     ],
-    setup_requires=['ploomber', 'jupyterlab'],
+    setup_requires=['pipenv', 'ploomber', 'jupyterlab'],
     tests_require=[],
 
 )
